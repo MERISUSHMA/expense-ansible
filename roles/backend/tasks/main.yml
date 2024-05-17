@@ -18,7 +18,7 @@
   ansible.builtin.user:
     name: expense
 
-- name: Import App Role - App Pre-requisites
+- name: Import common Role - App Pre-requisites
   ansible.builtin.import_role:
     name: common
     tasks_from: app-prereq
